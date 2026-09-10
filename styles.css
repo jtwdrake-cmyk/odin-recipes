@@ -1,0 +1,44 @@
+@import url('https://googleapis.com');
+body {
+    width: 740px;
+    margin: auto;
+    background-color: #e7ede1;
+}
+
+.title {
+    box-sizing: border-box;
+    background-color: #fdedd6;
+    padding: 30px 30px;
+
+    font-size: 25px;
+    color: #3d5926;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+} 
+h1 {
+    margin-bottom: -30px;
+}
+
+.content1 {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    color:#3d5926;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.ingredient-method-container {
+    display: flex;
+}
+.ingredient-method-container div {
+    display: inline-block;
+    width: 350px;
+    flex: 1;
+}
+
+.ingredient {
+background-color: #fdedd6;
+box-sizing: border-box;
+margin: 10px 30px auto auto;
+padding-left: 10px;
+}
